@@ -22,11 +22,11 @@ library(readtext)
 
 ```{r}
 stringsAsFactor = F
-prozess <- read_lines("data/novels/book05.txt")
-enfants <- read_lines("data/novels/book12.txt")
+prozess <- read_lines("novels/book05.txt")
+enfants <- read_lines("novels/book12.txt")
 
-romane <- readtext("data/novels/*.txt")
-coronavirus2020 <- readtext("data/news/*.json", 
+romane <- readtext("novels/*.txt")
+coronavirus2020 <- readtext("news/*.json", 
                        text_field = "text", encoding = "LATIN1")
 
 ```
