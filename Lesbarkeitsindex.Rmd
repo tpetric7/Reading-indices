@@ -426,6 +426,8 @@ lesbarkeit %>%
 
 ## Flesch-Kincade Grade Level (USA, GB)
 
+https://paldhous.github.io/NICAR/2019/r-text-analysis.html
+
 The code below uses the **quanteda** functions `ntoken`, `nsentence` and `nsyllable` to count the words, sentences, and syllables in each addresss. Then it uses those values to calculate the [Flesch-Kincaid reading grade level](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests), a widely used measure of linguistic complexity.
 
 ```{r}
@@ -494,6 +496,8 @@ ggplotly(u, height = 500, width = 1000)
 
 
 ## Wiener Sachtextformel
+
+https://de.wikipedia.org/wiki/Lesbarkeitsindex
 
 Die Wiener Sachtextformel dient zur Berechnung der Lesbarkeit deutschsprachiger Texte. Sie gibt an, für welche Schulstufe ein Sachtext geeignet ist. Die Skala beginnt bei Schulstufe 4 und endet bei 15, wobei ab der Stufe 12 eher von Schwierigkeitsstufen als von Schulstufen gesprochen werden sollte. Ein Wert von 4 steht demnach für sehr leichten Text, dagegen bezeichnet 15 einen sehr schwierigen Text.
 
@@ -690,6 +694,8 @@ lesbarkeitsindex_romane %>%
 
 
 ## Zur theoretischen Begründung
+
+https://de.wikipedia.org/wiki/Lesbarkeitsindex
 
 Lesbarkeitsformeln sind in der Forschung weitgehend etabliert. Viele, die sich mit Lesbarkeitsformeln befassen, stellen sich dennoch die Frage, wieso man bei Berücksichtigung nur sehr weniger Kriterien Aufschluss über die Lesbarkeit von Texten erhalten kann. Man hat ja doch leicht den Eindruck, dass Wort- und Satzlänge keine besonders triftigen Kriterien sein sollten. Schaut man sich aber an, mit welchen anderen Kriterien diese beiden genannten – und andere – verknüpft sind, kann man erkennen, dass zwar nur zwei Texteigenschaften direkt gemessen werden, damit aber indirekt eine ganze Reihe andere ebenfalls berücksichtigt werden.
 
