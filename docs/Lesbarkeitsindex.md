@@ -17,6 +17,7 @@ library(tidyverse)
 library(tidytext)
 library(quanteda)
 library(readtext)
+library(nsyllable)
 
 ```
 
